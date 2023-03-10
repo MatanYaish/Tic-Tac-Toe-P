@@ -1,0 +1,40 @@
+.cell {
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  border: 2px solid;
+  font-size: 50px;
+  line-height: 75px;
+  box-shadow: 0 0 0 3px;
+}
+
+#gameContainer {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#cellContainer {
+  margin: auto;
+  display: grid;
+  width: 225px;
+  grid-template-columns: repeat(3, auto);
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  padding-bottom: 10px;
+  border-radius: 78px;
+}
+
+#restartBtn {
+  border-radius: 78px;
+  background: red;
+}
+
+body {
+  background-image: url("Ecom'sPics/gmaeing.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
